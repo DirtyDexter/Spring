@@ -11,10 +11,10 @@ import java.io.IOException;
 
 @JsonTest
 public class CashCardJsonTest {
-  
+
   @Autowired
   private JacksonTester<CashCard> json;
-  
+
   @Test
   void myFirstTest() {
     assertThat(42).isEqualTo(42);
@@ -38,7 +38,7 @@ public class CashCardJsonTest {
     String expected = """
         {
           "id":99,
-          "amount":123.45 
+          "amount":123.45
         }
         """;
     assertThat(json.parse(expected)).isEqualTo(new CashCard(99L, 123.45));
