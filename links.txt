@@ -1,0 +1,7 @@
+HTTP Methods -   https://www.rfc-editor.org/rfc/rfc7231
+
+URI or URL - https://www.w3.org/TR/uri-clarification/#contemporary
+
+Concurrency 
+https://medium.com/@vinciabhinav7/concurrency-in-java-executorservice-future-and-callable-f22a7fbeefe2
+
